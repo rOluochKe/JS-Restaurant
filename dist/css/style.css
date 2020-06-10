@@ -232,6 +232,7 @@ textarea:focus:invalid {
 
 textarea {
   resize: none;
+  margin-top: 20px;
 }
 
 .form-btn {
