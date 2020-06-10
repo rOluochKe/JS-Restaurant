@@ -13,17 +13,13 @@ const Header = (() => {
     const ul = document.createElement('ul');
     const liHome = document.createElement('li');
     const liMenu = document.createElement('li');
-    const liContact = document.createElement('li');
     liHome.setAttribute('id', 'home');
     liMenu.setAttribute('id', 'menu');
-    liContact.setAttribute('id', 'contact');
     liHome.innerText = 'home';
     liMenu.innerText = 'menu';
-    liContact.innerText = 'contact us';
 
     ul.appendChild(liHome);
     ul.appendChild(liMenu);
-    ul.appendChild(liContact);
 
     nav.appendChild(span);
     nav.appendChild(ul);

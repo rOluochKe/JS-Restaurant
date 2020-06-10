@@ -1,7 +1,6 @@
 import Header from './modules/header';
 import Home from './modules/home';
 import Menu from './modules/menu';
-import Contact from './modules/contact';
 
 const clearContent = () => {
   const content = document.getElementById('content');
@@ -15,12 +14,6 @@ const displayMenu = () => {
   clearContent();
   Menu.setMenu();
   Menu.setMenuActive();
-};
-
-const displayContact = () => {
-  clearContent();
-  Contact.setContact();
-  Contact.setContactActive();
 };
 
 const displayHome = () => {
@@ -40,12 +33,10 @@ document.addEventListener('DOMContentLoaded', () => {
   const logo = document.getElementById('logo');
   const home = document.getElementById('home');
   const menu = document.getElementById('menu');
-  const contact = document.getElementById('contact');
   const menuBtn = document.getElementById('menu-btn');
 
   logo.addEventListener('click', displayHome);
   home.addEventListener('click', displayHome);
   menu.addEventListener('click', displayMenu);
-  contact.addEventListener('click', displayContact);
   menuBtn.addEventListener('click', displayMenu);
 });

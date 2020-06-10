@@ -49,6 +49,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   cursor: pointer;
+  margin-left: 20px;
 }
 
 nav {

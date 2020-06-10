@@ -2,7 +2,7 @@
 
 - JavaScript ES6 DOM manipulation by dynamically rendering a simple restaurant homepage
 
-![sample](images/sample.png)
+![sample](./dist/img/sample.png)
 
 ## Usage
 > Clone the repository to your local machine using ssh:
@@ -15,7 +15,7 @@ $ git clone https://github.com/rOluochKe/JS-Restaurant.git
 ```
 > cd into the directory
 ```
-$ cd JS-TicTacToe
+$ cd JS-Restaurant
 ```
 > Run Server Locally
 
